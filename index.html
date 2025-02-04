@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        background-color: rgb(78, 190, 235);
+        background-image: url("https://i.pinimg.com/736x/86/8f/7a/868f7a764b938b0d6aee320366d036ef.jpg");
+        background-size: 200px;
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-attachment: fixed;
+      }
+
+      #grad1 {
+        height: 210px;
+        background-color: rgb(147, 162, 182);
+        background-image: linear-gradient(
+          to top right,
+          white,
+          skyblue,
+          rgb(38, 154, 248),
+          rgb(129, 129, 236),
+          rgb(138, 138, 231),
+          rgb(200, 189, 219),
+          pink,
+          white
+        );
+        text-align: center;
+        margin: auto;
+        margin-top: 230px;
+        color: rgb(0, 7, 100);
+        font-size: 50px;
+        font-weight: bold;
+      }
+
+      @keyframes mikuuu {
+        0% {
+          background-color: white;
+        }
+        25% {
+          background-color: rgb(197, 97, 255);
+        }
+        50% {
+          background-color: rgb(77, 94, 241);
+        }
+        75% {
+          background-color: rgb(62, 203, 247);
+        }
+        100% {
+          background-color: rgb(77, 61, 150);
+        }
+      }
+      #animation {
+        width: 220px;
+        height: 70px;
+        background-color: rgb(47, 47, 116);
+        animation-name: mikuuu;
+        animation-duration: 30s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Background Effect!</h1>
+    <div id="grad1">Welcome to MikuWorld !🪄</div>
+    <div id="animation">Animation</div>
+  </body>
+</html>
